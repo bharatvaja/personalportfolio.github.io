@@ -1,0 +1,233 @@
+body{
+margin:0px;
+scroll-behaviour:smooth;
+font-family: 'Josefin Sans', sans-serif;
+padding:0px;
+box-sizing:border-box;
+}
+a{
+text-decoration:none;
+}
+.nav-link{
+font-weight:bold;
+font-size:1rem;
+color:white;
+align-items:center;
+}
+
+.header{
+background-image:url("cemet.jpg");
+background-size:cover;
+height:95%;
+position:relative;
+width:100%;
+background-repeat:no-repeat;
+}
+.brand-logo{
+color:#1k3m7f;
+font-size:2.1rem;
+font-weight:bold;
+font-family: 'Piedra', cursive;
+}
+.active{
+color:#2b2a2a;
+font-weight:bold;
+}
+.text-container p:nth-child(1){
+font-weight:bold;
+font-family:calibari;
+font-size:22px;
+color:#6d6d6d;
+}
+.text-container p:nth-child(2){
+font-weight:bold;
+font-size:60px;
+align-items:center;
+color:#1a1a1a;
+letter-spacing:1px;
+}
+.text-container p:nth-child(3){
+font-size:30px;
+color:#403e3e;
+line-height:30px;;
+}
+.text-container p{
+line-height:0px;
+font-family: 'Piedra', cursive;
+margin:45px 0px 25px;
+}
+.text-container button{
+width:130px;
+height:42px;
+border-radius:10px;
+margin:0 10px;
+outline:none;
+font-size:14px;
+font-weight:bold;
+}
+.hire-btn{
+border:2px solid #373636;
+color:#373636;
+font-weight:bold;
+}
+.down-cv{
+background-color:#0b0b0b;
+color:#FFFFFF;
+border:none;
+}
+button:active{
+transform:scale(1.1);
+}
+.model{
+position:absolute;
+bottom:0px;
+left:70%;
+transform:translateX(-70%);
+height:560px;
+}
+.service{
+width:100%;
+margin:auto;
+background-coor:white;
+margin-top:15px;
+padding:10px;
+font-weight:bold;
+height:100vh;
+}
+.card card-body{
+background-color:black;
+color:white;
+font-weight:bold;
+text-align:center;
+align-items:center;
+transition:all 0.3s linear;
+}
+.card card-body:hover{
+transform:scale(1.4);
+transform:translateX(40px);
+}
+.icon{
+background-color:cyan;
+color:black;
+border-radius:100%;
+border:1px inset green;
+height:50px;
+width:50px;
+margin:auto;
+margin-top:10px;
+display:inline-block;
+position:relative;
+align-items:center;
+}
+.icon .fa {
+position:absolute;
+top:50%;
+left:50%;;
+align-items:center;
+justify-content:center;
+display:flex;
+transform:translate(-50%,-50%);
+}
+.txt{
+font-weight:800;
+align-items:center;
+font-family: 'Abril Fatface', cursive;
+text-align:center;
+color:green;
+padding:10px;
+font-size:2.2rem;
+text-transform:capitalize;
+}
+
+.box{
+margin:auto;
+margin-top:10px;
+background-color:black;
+color:white;
+align-items:center;
+text-align:center;
+height:auto;
+border-radius:10px;
+width:100%;
+}
+.last{
+background-color:cyan;
+color:black;
+font-size:1.2rem;
+font-weight:bold;
+align-items:center;
+text-align:center;
+margin:auto;
+margin-top:30px;
+}
+.circl{
+position:relative;
+display:flex;
+align-items:center;
+text-align:center;
+justify-content:center;
+border-radius:100%;
+border:1px inset green;
+}
+.circl .fa{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+color:white;
+}
+.right-icon .fa{
+transform:translate(-66%,-66%%);
+top:0px;
+right:20%;
+justify-content:center;
+}
+.centerdiv{
+justify-content:center;
+display:flex;
+align-items:center;
+}
+.soci{
+height:40px;
+width:40px;
+line-height:50px;
+border-radius:50px;
+margin:10px;
+text-align:center;
+align-items:center;
+box-shadow:1px 4px 2px 2px #dcdde1;
+background-color:#f5f6fa;
+}
+.soci i{
+transition:all 0.3s linear;
+}
+.soci:hover i{
+transform:scale(1.4);
+}
+.mode{
+background-color:black;
+color:white;
+}
+about_para{
+font-size:23px;
+padding-top:10px;
+}
+img{
+height:30vh;
+}
+.btn{
+transition:0.6s linear;
+}
+.nav-link:hover{
+transition:0.5s linear;
+color:white;
+background-color:black;
+
+align-items:center;
+border-radius:6px;
+-webkit-transition:0.5s linear;
+}
+.contant{
+background-color:light;
+color:blue;
+}
